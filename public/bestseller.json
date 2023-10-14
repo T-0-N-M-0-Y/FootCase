@@ -1,0 +1,72 @@
+[
+    {
+      "id": "10",
+      "name": "Trail Running Shoe",
+      "rating": 4.6,
+      "price": "74.99",
+      "image": "shoe10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Classic Canvas Sneaker",
+      "rating": 4.2,
+      "price": "59.99",
+      "image": "shoe11.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Winter Boots",
+      "rating": 4.8,
+      "price": "94.99",
+      "image": "shoe12.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Indoor Soccer Cleats",
+      "rating": 4.7,
+      "price": "79.99",
+      "image": "shoe13.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Slide Sandals",
+      "rating": 4.0,
+      "price": "39.99",
+      "image": "shoe14.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Leather Oxfords",
+      "rating": 4.5,
+      "price": "69.99",
+      "image": "shoe15.jpg"
+    },
+    {
+      "id": "16",
+      "name": "High-Top Basketball Shoes",
+      "rating": 4.7,
+      "price": "89.99",
+      "image": "shoe16.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Athletic Running Shoe",
+      "rating": 4.6,
+      "price": "74.99",
+      "image": "shoe17.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Lace-Up Boots",
+      "rating": 4.3,
+      "price": "64.99",
+      "image": "shoe18.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Suede Moccasins",
+      "rating": 4.1,
+      "price": "49.99",
+      "image": "shoe19.jpg"
+    }
+  ]

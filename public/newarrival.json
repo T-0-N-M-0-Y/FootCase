@@ -1,0 +1,65 @@
+[
+    {
+      "id": "1",
+      "name": "Running Shoe 1",
+      "rating": 4.7,
+      "price": "79.99",
+      "image": "shoe1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Casual Sneaker A",
+      "rating": 4.2,
+      "price": "59.99",
+      "image": "shoe2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Hiking Boot X",
+      "rating": 4.5,
+      "price": "89.99",
+      "image": "shoe3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sports Shoe Z",
+      "rating": 4.8,
+      "price": "99.99",
+      "image": "shoe4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Sandals 3",
+      "rating": 4.1,
+      "price": "49.99",
+      "image": "shoe5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Dress Shoe Elegance",
+      "rating": 4.6,
+      "price": "69.99",
+      "image": "shoe6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Athletic Shoe Pro",
+      "rating": 4.7,
+      "price": "79.99",
+      "image": "shoe7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Fashion Sneaker B",
+      "rating": 4.4,
+      "price": "54.99",
+      "image": "shoe8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Classic Loafer",
+      "rating": 4.3,
+      "price": "64.99",
+      "image": "shoe9.jpg"
+    }
+  ]
