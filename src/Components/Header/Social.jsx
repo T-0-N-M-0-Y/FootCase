@@ -38,7 +38,7 @@ const Social = () => {
                             </>
                             :
                             <>
-                                <Link to={'/login'}><button className="bg-sky-800 hover:text-white text-white px-3 py-1 transition ease-in-out delay-150 hover:scale-110 duration-150">Login</button></Link>
+                                <Link to={'/'}><button className="bg-sky-800 hover:text-white text-white px-3 py-1 transition ease-in-out delay-150 hover:scale-110 duration-150">Login</button></Link>
                             </>
                     }
                     {
@@ -51,7 +51,7 @@ const Social = () => {
                             </>
                             :
                             <>
-                                <Link to={'/signup'}><button className="bg-red-600 hover:text-white text-white px-3 py-1 transition ease-in-out delay-150 hover:scale-110 duration-150">Sign up</button></Link>
+                                <Link to={'/'}><button className="bg-red-600 hover:text-white text-white px-3 py-1 transition ease-in-out delay-150 hover:scale-110 duration-150">Sign up</button></Link>
                             </>
                     }
                 </div>

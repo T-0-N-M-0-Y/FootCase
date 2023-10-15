@@ -29,12 +29,12 @@ const Footer = () => {
           <div className="col-span-2">
             <div className="font-bold text-sm uppercase mb-6">Find it Fast</div>
             <ul>
-              <li className="mb-3 text-sm text-gray-600">Accessories</li>
-              <li className="mb-3 text-sm text-gray-600">Headphones</li>
-              <li className="mb-3 text-sm text-gray-600">Computer</li>
-              <li className="mb-3 text-sm text-gray-600">TV & Smart box</li>
-              <li className="mb-3 text-sm text-gray-600">Home & Garden</li>
-              <li className="mb-3 text-sm text-gray-600">Children</li>
+              <li className="mb-3 text-sm text-gray-600">Featured</li>
+              <li className="mb-3 text-sm text-gray-600">Best Selling</li>
+              <li className="mb-3 text-sm text-gray-600">Week Best Products</li>
+              <li className="mb-3 text-sm text-gray-600">New Arrivals</li>
+              <li className="mb-3 text-sm text-gray-600">For Men</li>
+              <li className="mb-3 text-sm text-gray-600">For Women</li>
             </ul>
           </div>
   
