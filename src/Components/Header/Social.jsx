@@ -9,7 +9,7 @@ const Social = () => {
 
     return (
         <div>
-            <div className="md:flex justify-between items-center text-center bg-sky-950 text-white md:px-20 mt-16">
+            <div className="flex justify-between items-center text-center bg-sky-950 text-white md:px-20 mt-16">
                 {
                     user ?
                         <>

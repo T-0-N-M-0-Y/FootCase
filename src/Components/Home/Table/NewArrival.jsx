@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import required modules
 import { Navigation } from "swiper/modules";
 import { FaRegStar, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
@@ -19,12 +14,27 @@ const NewArrival = () => {
             .then((res) => res.json())
             .then((data) => setNewArrivals(data));
     }, []);
+    
     return (
         <div className="my-10" >
             <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={1}
+                spaceBetween={10}
                 navigation={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 10,
+                    },
+                }}
                 modules={[Navigation]}
                 className="mySwiper"
             >
@@ -32,11 +42,11 @@ const NewArrival = () => {
                     <div key={product.id}>
                         <SwiperSlide>
                             <div className="border w-full h-full" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+                                data-aos-anchor-placement="top-bottom">
                                 <img
                                     src={product.image}
                                     alt=""
-                                    className="p-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150 w-full h-96"
+                                    className="p-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150 w-full h-96"
                                 />
                                 <div className="pl-8 my-4">
                                     <Rating

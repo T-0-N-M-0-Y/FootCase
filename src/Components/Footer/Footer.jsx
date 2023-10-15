@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
       <footer className=" pt-4 min-h-[65vh] flex flex-col mt-10">
-        <div className="container mx-auto grid grid-cols-7 gap-4 p-4 flex-grow">
+        <div className="container mx-auto grid lg:grid-cols-7 gap-4 p-4 flex-grow">
           {/* Column 1: Contact Information */}
           <div className="col-span-2">
             <div className="font-bold uppercase mb-6">Contact Information</div>

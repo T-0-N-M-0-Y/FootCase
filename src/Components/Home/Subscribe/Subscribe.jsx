@@ -7,12 +7,12 @@ import {
   } from "react-icons/fa";
   const Subscribe = () => {
     return (
-      <div className="flex items-center justify-evenly gap-4 py-20 bg-gray-100 mb-20 mx-10" data-aos="flip-up">
+      <div className="md:flex items-center justify-between gap-4 md:p-20 p-10 bg-gray-100 mb-20 md:mx-10 mx-5" data-aos="flip-up">
         <div>
           <h1 className="text-2xl font-extrabold">
             JOIN US NOW!! <span className="text-red-600">.</span>
           </h1>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-slate-500 mb-10">
             Easy and trusted online shop
           </p>
         </div>
@@ -23,14 +23,14 @@ import {
             className="border px-4 py-2 border-gray-400"
           />
           <button
-            className="px-3 py-2 bg-red-700 text-white font-semibold
+            className="px-3 py-2 bg-red-700 text-white font-semibold my-5
           "
           >
             SUBSCRIBE
           </button>
         </div>
         <div>
-          <h1 className="inline-flex items-center text-slate-500">
+          <h1 className="inline-flex items-center">
             Follow us on:
             <span className="flex gap-3 ml-4">
               <FaFacebookSquare></FaFacebookSquare>

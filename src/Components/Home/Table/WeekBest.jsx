@@ -22,11 +22,25 @@ const WeekBest = () => {
     return (
         <>
             <h1 className="text-center text-4xl font-bold mb-10 border-b-4 border-red-600 mx-10">Week Special Products</h1>
-            <div className="mb-20 mx-10" >
+            <div className="mb-20 md:mx-10 mx-5" >
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
+                    slidesPerView={1}
+                    spaceBetween={10}
                     navigation={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 10,
+                        },
+                    }}
                     modules={[Navigation]}
                     className="mySwiper"
                 >
@@ -34,11 +48,11 @@ const WeekBest = () => {
                         <div key={product.id}>
                             <SwiperSlide>
                                 <div className="border w-full h-full" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">
+                                    data-aos-anchor-placement="top-bottom">
                                     <img
                                         src={product.image}
                                         alt=""
-                                        className="p-4  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150 w-full h-96"
+                                        className="p-2  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150 w-full h-96"
                                     />
                                     <div className="pl-8 my-4">
                                         <Rating

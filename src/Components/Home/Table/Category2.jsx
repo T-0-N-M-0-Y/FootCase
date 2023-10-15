@@ -11,7 +11,7 @@ const Category2 = () => {
   };
 
   return (
-    <Tabs className="mb-20 mx-10">
+    <Tabs className="mb-20 md:mx-10 mx-5">
       <TabList>
         <div className="flex gap-4 border-b-4 pb-2 justify-center">
           <Tab>
