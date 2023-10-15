@@ -14,10 +14,11 @@ const Featured = () => {
   return (
     <>
       <h1 className="text-center text-4xl font-bold mb-10 border-b-4 border-red-600 mx-10">Featured</h1>
-      <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-2 mx-10 mb-20">
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-2 mx-10 mb-20" >
         {bestSells.slice(0, 10).map((bestSell) => (
           <div key={bestSell.id}>
-            <div className="border w-full h-full">
+            <div className="border w-full h-full" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
               <img
                 src={bestSell.image}
                 alt=""

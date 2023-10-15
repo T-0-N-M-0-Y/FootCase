@@ -22,7 +22,7 @@ const WeekBest = () => {
     return (
         <>
             <h1 className="text-center text-4xl font-bold mb-10 border-b-4 border-red-600 mx-10">Week Special Products</h1>
-            <div className="mb-20 mx-10">
+            <div className="mb-20 mx-10" >
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -33,7 +33,8 @@ const WeekBest = () => {
                     {bestsellers.map((product) => (
                         <div key={product.id}>
                             <SwiperSlide>
-                                <div className="border w-full h-full">
+                                <div className="border w-full h-full" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                                     <img
                                         src={product.image}
                                         alt=""

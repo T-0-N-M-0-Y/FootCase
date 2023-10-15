@@ -20,7 +20,7 @@ const NewArrival = () => {
             .then((data) => setNewArrivals(data));
     }, []);
     return (
-        <div className="my-10">
+        <div className="my-10" >
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -31,7 +31,8 @@ const NewArrival = () => {
                 {newArrivals.map((product) => (
                     <div key={product.id}>
                         <SwiperSlide>
-                            <div className="border w-full h-full">
+                            <div className="border w-full h-full" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                                 <img
                                     src={product.image}
                                     alt=""
