@@ -6,6 +6,9 @@ import Offer3 from "../Offer2/Offer3";
 import SomeInfo from "../SomeInfo/SomeInfo";
 import Subscribe from "../Subscribe/Subscribe";
 import Category from "../Table/Category";
+import Category2 from "../Table/Category2";
+import Featured from "../Table/Featured";
+import WeekBest from "../Table/WeekBest";
 
 const Home = () => {
 
@@ -14,10 +17,13 @@ const Home = () => {
             <Social></Social>
             <Offer></Offer>
             <Banner></Banner>
-            <Offer2></Offer2>
-            <Category></Category>
             <SomeInfo></SomeInfo>
+            <Category></Category>
+            <Offer2></Offer2>
+            <Featured></Featured>
+            <WeekBest></WeekBest>
             <Offer3></Offer3>
+            <Category2></Category2>
             <Subscribe></Subscribe>
         </div>
     );

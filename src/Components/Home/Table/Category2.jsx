@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import NewArrival from "./NewArrival";
 import BestSeller from "./BestSeller";
 
-const Category = () => {
+const Category2 = () => {
   const [activeTab, setActiveTab] = useState("addClass");
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
@@ -23,7 +23,7 @@ const Category = () => {
               } `}
               onClick={() => handleTabClick("addClass")}
             >
-              New Arrivals
+              For Men
             </Link>
           </Tab>
           <Tab>
@@ -35,7 +35,7 @@ const Category = () => {
               } `}
               onClick={() => handleTabClick("myClass")}
             >
-              BestSellers
+              For Women
             </Link>
           </Tab>
         </div>
@@ -51,4 +51,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Category2;

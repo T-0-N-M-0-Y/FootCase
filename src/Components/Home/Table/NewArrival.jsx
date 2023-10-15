@@ -31,11 +31,11 @@ const NewArrival = () => {
                 {newArrivals.map((product) => (
                     <div key={product.id}>
                         <SwiperSlide>
-                            <div className="border w-auto h-full">
+                            <div className="border w-full h-full">
                                 <img
-                                    src="https://www.digitaltrends.com/wp-content/uploads/2022/08/macbook-air-m2-1.jpg?resize=625%2C417&p=1"
+                                    src={product.image}
                                     alt=""
-                                    className="p-4  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150"
+                                    className="p-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-150 w-full h-96"
                                 />
                                 <div className="pl-8 my-4">
                                     <Rating
@@ -52,6 +52,7 @@ const NewArrival = () => {
                                         ${product.price}
                                     </h3>
                                 </div>
+                                <button className="btn btn-outline w-full text-red-600 hover:bg-red-900">Add to Cart</button>
                             </div>
                         </SwiperSlide>
                     </div>

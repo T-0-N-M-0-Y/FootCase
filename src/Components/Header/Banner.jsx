@@ -8,7 +8,7 @@ const Banner = () => {
                     <img src="https://wallpaper.dog/large/250807.jpg" className="w-full" />
                     <div className="absolute flex justify-center items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <p className="md:text-5xl text-xs md:font-bold text-white p-2 md:p-5 uppercase text-center">Wellcome to FootCase <br />
-                            <p className="md:text-sm my-4 font-normal normal-case">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                            <p className="md:text-sm my-4 font-normal normal-case">  <h1>Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience.</h1></p>
                             <div className="text-center">
                                 <Link to={'/'}><button className="hover:bg-white bg-red-600 hover:text-black border-none mt-2 p-3 text-xs md:text-sm rounded-lg md:w-32 mr-2 transition ease-in-out delay-150 hover:scale-110 duration-150">Shop Now</button></Link>
                             </div>

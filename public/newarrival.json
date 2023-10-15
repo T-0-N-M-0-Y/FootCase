@@ -1,65 +1,65 @@
 [
-    {
-      "id": "1",
-      "name": "Running Shoe 1",
-      "rating": 4.7,
-      "price": "79.99",
-      "image": "shoe1.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Casual Sneaker A",
-      "rating": 4.2,
-      "price": "59.99",
-      "image": "shoe2.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Hiking Boot X",
-      "rating": 4.5,
-      "price": "89.99",
-      "image": "shoe3.jpg"
-    },
-    {
-      "id": "4",
-      "name": "Sports Shoe Z",
-      "rating": 4.8,
-      "price": "99.99",
-      "image": "shoe4.jpg"
-    },
-    {
-      "id": "5",
-      "name": "Sandals 3",
-      "rating": 4.1,
-      "price": "49.99",
-      "image": "shoe5.jpg"
-    },
-    {
-      "id": "6",
-      "name": "Dress Shoe Elegance",
-      "rating": 4.6,
-      "price": "69.99",
-      "image": "shoe6.jpg"
-    },
-    {
-      "id": "7",
-      "name": "Athletic Shoe Pro",
-      "rating": 4.7,
-      "price": "79.99",
-      "image": "shoe7.jpg"
-    },
-    {
-      "id": "8",
-      "name": "Fashion Sneaker B",
-      "rating": 4.4,
-      "price": "54.99",
-      "image": "shoe8.jpg"
-    },
-    {
-      "id": "9",
-      "name": "Classic Loafer",
-      "rating": 4.3,
-      "price": "64.99",
-      "image": "shoe9.jpg"
-    }
-  ]
+  {
+    "id": "1",
+    "name": "Running Shoe",
+    "rating": 4.7,
+    "price": "79.99",
+    "image": "https://www.merkis.com.bd/wp-content/uploads/2023/02/1531-02.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "Casual Sneaker",
+    "rating": 4.2,
+    "price": "59.99",
+    "image": "https://www.merkis.com.bd/wp-content/uploads/2023/06/427.2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Hiking Boot",
+    "rating": 4.5,
+    "price": "89.99",
+    "image": "https://cdn.thewirecutter.com/wp-content/media/2021/12/hikingboots-2048px-DSCF7462-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024"
+  },
+  {
+    "id": "4",
+    "name": "Sports Shoe",
+    "rating": 4.8,
+    "price": "99.99",
+    "image": "https://ae01.alicdn.com/kf/S9be4cc194831458ab4e94c283e686719a.jpg_640x640Q90.jpg_.webp"
+  },
+  {
+    "id": "5",
+    "name": "Sandals",
+    "rating": 4.1,
+    "price": "49.99",
+    "image": "https://nypost.com/wp-content/uploads/sites/2/2023/03/sandals-new.jpg?quality=75&strip=all"
+  },
+  {
+    "id": "6",
+    "name": "Dress Shoe Elegance",
+    "rating": 4.6,
+    "price": "69.99",
+    "image": "https://i2.pickpik.com/photos/269/529/281/shoes-elegance-fashion-elegant-preview.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Athletic Shoe Pro",
+    "rating": 4.7,
+    "price": "79.99",
+    "image": "https://www.golfalot.com/Portals/0/imagesblogs/footjoy/proslsport/review/proslsport_pairhero.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Fashion Sneaker",
+    "rating": 4.4,
+    "price": "54.99",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQVPrzI5cD2sRuPiadD6aF2OMZppIzT1LPOA&usqp=CAU"
+  },
+  {
+    "id": "9",
+    "name": "Classic Loafer",
+    "rating": 4.3,
+    "price": "64.99",
+    "image": "https://www.merkis.com.bd/wp-content/uploads/2023/06/235-01.jpg"
+  }
+]

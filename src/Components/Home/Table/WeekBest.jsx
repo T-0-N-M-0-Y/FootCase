@@ -12,7 +12,7 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 import Rating from "react-rating";
 
 
-const BestSeller = () => {
+const WeekBest = () => {
     const [bestsellers, setBestsellers] = useState([]);
     useEffect(() => {
         fetch("bestseller.json")
@@ -21,7 +21,8 @@ const BestSeller = () => {
     }, []);
     return (
         <>
-            <div className="my-10">
+            <h1 className="text-center text-4xl font-bold mb-10 border-b-4 border-red-600 mx-10">Week Special Products</h1>
+            <div className="mb-20 mx-10">
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -64,4 +65,4 @@ const BestSeller = () => {
     );
 };
 
-export default BestSeller;
+export default WeekBest;

@@ -2,7 +2,7 @@
 
 const SomeInfo = () => {
     return (
-        <div className='m-10 bg-sky-950 text-white p-5 rounded-lg'>
+        <div className='mb-20 bg-black text-white p-5 -mt-3'>
             <div className='grid lg:grid-cols-5 md:grid-cols-2 gap-5'>
                 <div className='flex items-center'>
                     <img src="https://htmldemo.net/juta/juta-v1/img/icon/f-1.png" alt="" className='h-10 w-10 mr-4' />
